@@ -51,7 +51,7 @@ public class HomeFragment extends Fragment {
 
     private WorkoutLogViewModel workoutLogViewModel;
     private DatabaseReference rootDatabaseRef;
-    private final String realTimePath = "https://fitnessforge-6feba-default-rtdb.asia-southeast1.firebasedatabase.app/";
+    private final String realTimePath = "out of service";
 
 
     public HomeFragment(){}
