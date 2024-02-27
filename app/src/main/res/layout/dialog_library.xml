@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercise Name"
+        />
+
+    <TextView
+        android:id="@+id/exercise_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20sp"
+        style="@style/DefaultText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Muscle Group"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/muscle_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Muscle"
+        android:textSize="20sp"
+        style="@style/DefaultText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Equipment"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/equipment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Equipment"
+        android:textSize="20sp"
+        style="@style/DefaultText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instructions"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Equipment"
+        android:textSize="12sp"
+        style="@style/DefaultText" />
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:id="@+id/nav_home_fragment"
+        android:title="Home" />
+
+    <item android:id="@+id/nav_profile_fragment"
+        android:title="Profile" />
+
+    <item android:id="@+id/nav_report_fragment"
+        android:title="Reports" />
+
+    <item android:id="@+id/nav_planner_fragment"
+        android:title="Weekly Planner" />
+
+    <item android:id="@+id/nav_workout_fragment"
+        android:title="Workouts Managment" />
+
+    <item android:id="@+id/nav_exercise_fragment"
+        android:title="Exercise Management" />
+
+    <item android:id="@+id/nav_library_fragment"
+        android:title="Exercise Library" />
+
+    <item android:id="@+id/nav_reminder_fragment"
+        android:title="Reminders" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout" />
+
+</menu>

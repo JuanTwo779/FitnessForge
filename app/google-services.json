@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "880022025816",
+    "project_id": "fitnessforge-6feba",
+    "storage_bucket": "fitnessforge-6feba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880022025816:android:702a75d698bf7084453c2d",
+        "android_client_info": {
+          "package_name": "com.example.fitnessforge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkRtpkgNr13vDeCzhFbj1hS5OZ_beNuf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

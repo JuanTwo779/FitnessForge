@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weekly Planner"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"
+        style="@style/DefaultText"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/monday_card"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:contentPadding="5dp"
+        >
+
+        <TextView
+            android:id="@+id/monday_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MON"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/monday_small_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Workout"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/monday_workout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Monday workout"
+            android:textSize="18sp"
+            style="@style/DefaultText"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="5dp">
+
+            <ImageView
+                android:id="@+id/monday_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_edit" />
+
+            <ImageView
+                android:id="@+id/monday_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|end"
+                android:src="@android:drawable/ic_media_play"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tuesday_card"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:contentPadding="5dp"
+        >
+
+        <TextView
+            android:id="@+id/tuesday_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TUES"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/tuesday_small_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Workout"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/tuesday_workout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Tuesday workout"
+            android:textSize="18sp"
+            style="@style/DefaultText"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="5dp">
+
+            <ImageView
+                android:id="@+id/tuesday_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_edit" />
+
+            <ImageView
+                android:id="@+id/tuesday_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|end"
+                android:src="@android:drawable/ic_media_play"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/wednesday_card"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:contentPadding="5dp">
+
+        <TextView
+            android:id="@+id/wednesday_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WED"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/wednesday_small_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Workout"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/wednesday_workout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Wednesday workout"
+            android:textSize="18sp"
+            style="@style/DefaultText"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="5dp">
+
+            <ImageView
+                android:id="@+id/wednesday_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_edit" />
+
+            <ImageView
+                android:id="@+id/wednesday_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|end"
+                android:src="@android:drawable/ic_media_play"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/thursday_card"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:contentPadding="5dp">
+
+        <TextView
+            android:id="@+id/thursday_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THURS"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/thursday_small_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Workout"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/thursday_workout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Thursday workout"
+            android:textSize="18sp"
+            style="@style/DefaultText"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="5dp">
+
+            <ImageView
+                android:id="@+id/thursday_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_edit" />
+
+            <ImageView
+                android:id="@+id/thursday_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|end"
+                android:src="@android:drawable/ic_media_play"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/friday_card"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:contentPadding="5dp">
+
+        <TextView
+            android:id="@+id/friday_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FRI"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/friday_small_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Workout"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/friday_workout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Friday workout"
+            android:textSize="18sp"
+            style="@style/DefaultText"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="5dp">
+
+            <ImageView
+                android:id="@+id/friday_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_edit" />
+
+            <ImageView
+                android:id="@+id/friday_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|end"
+                android:src="@android:drawable/ic_media_play"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/saturday_card"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:contentPadding="5dp">
+
+        <TextView
+            android:id="@+id/saturday_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAT"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/saturday_small_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Workout"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/saturday_workout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Saturday workout"
+            android:textSize="18sp"
+            style="@style/DefaultText"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="5dp">
+
+            <ImageView
+                android:id="@+id/saturday_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_edit" />
+
+            <ImageView
+                android:id="@+id/saturday_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|end"
+                android:src="@android:drawable/ic_media_play"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sunday_card"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        app:contentPadding="5dp">
+
+        <TextView
+            android:id="@+id/sunday_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUN"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/sunday_small_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Workout"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/sunday_workout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Sunday workout"
+            android:textSize="18sp"
+            style="@style/DefaultText"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="5dp">
+
+            <ImageView
+                android:id="@+id/sunday_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_edit" />
+
+            <ImageView
+                android:id="@+id/sunday_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|end"
+                android:src="@android:drawable/ic_media_play"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

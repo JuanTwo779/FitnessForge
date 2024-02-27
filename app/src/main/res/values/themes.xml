@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+<!--    <style name="Base.Theme.FitnessForge" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--    </style>-->
+
+<!--    <style name="Theme.FitnessForge" parent="Base.Theme.FitnessForge" />-->
+
+    <style name="Theme.FitnessForge" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!--primary-->
+        <item name="colorPrimary">@color/red_500</item>
+        <item name="colorPrimaryVariant">@color/red_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!--secondary-->
+        <item name="colorSecondary">@color/light_red_500</item>
+        <item name="colorSecondaryVariant">@color/light_red_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!--status bar colour-->
+        <item name="android:statusBarColor" tools:targetApi="1">
+            ?attr/colorPrimaryVariant
+        </item>
+    </style>
+
+    <style name="Theme.FitnessForge.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.FitnessForge.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.FitnessForge.PopupOverlay"
+        parent="ThemeOverlay.MaterialComponents.Light" />
+
+
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home_fragment">
+
+    <fragment
+        android:id="@+id/nav_home_fragment"
+        android:name="com.example.fitnessforge.fragment.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/nav_profile_fragment"
+        android:name="com.example.fitnessforge.fragment.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/nav_report_fragment"
+        android:name="com.example.fitnessforge.fragment.ReportFragment"
+        android:label="ReportFragment" />
+    <fragment
+        android:id="@+id/nav_planner_fragment"
+        android:name="com.example.fitnessforge.fragment.PlannerFragment"
+        android:label="PlannerFragment" />
+    <fragment
+        android:id="@+id/nav_workout_fragment"
+        android:name="com.example.fitnessforge.fragment.WorkoutFragment"
+        android:label="WorkoutFragment" />
+    <fragment
+        android:id="@+id/nav_exercise_fragment"
+        android:name="com.example.fitnessforge.fragment.ExerciseFragment"
+        android:label="ExerciseFragment" />
+    <fragment
+        android:id="@+id/nav_library_fragment"
+        android:name="com.example.fitnessforge.fragment.LibraryFragment"
+        android:label="LibraryFragment" />
+    <fragment
+        android:id="@+id/nav_reminder_fragment"
+        android:name="com.example.fitnessforge.fragment.ReminderFragment"
+        android:label="ReminderFragment" />
+
+</navigation>

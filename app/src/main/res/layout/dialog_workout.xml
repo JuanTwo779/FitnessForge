@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Workout Name" />
+
+    <EditText
+        android:id="@+id/workout_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        style="@style/DefaultText"
+        android:hint="Enter a name"
+        android:inputType="text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Select"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Exercises"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="S"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="R"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/exercise1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Exercise 1"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/set1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="0"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/rep1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="0"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/exercise2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Exercise 2"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/set2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="0"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/rep2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="0"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/exercise3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Exercise 3"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/set3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="0"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/rep3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="0"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/exercise4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Exercise 4"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/set4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="0"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/rep4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="0"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinner5"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/exercise5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Exercise 5"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/set5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="0"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/rep5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="0"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinner6"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/exercise6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Exercise 6"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/set6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="0"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/rep6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="0"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinner7"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/exercise7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Exercise 7"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/set7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="0"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/rep7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="0"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:backgroundTint="#D9D9D9"
+        android:textColor="@color/black"
+        android:elevation="4dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:textAllCaps="false"
+        android:backgroundTint="#D9D9D9"
+        android:textColor="@color/black"
+        android:elevation="4dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>
