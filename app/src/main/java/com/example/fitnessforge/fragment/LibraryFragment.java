@@ -34,7 +34,7 @@ public class LibraryFragment extends Fragment {
     private List<Exercise> exercises;
     private RecyclerViewAdapterLib adapter;
 
-    private String API_KEY = "DCjvBSY1IK/whxDnmRBpPg==BWZHmE5BpgUJMA7o";
+    private String API_KEY = "";
     private ApiNinjaService service;
 
     public LibraryFragment(){}

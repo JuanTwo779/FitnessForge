@@ -43,7 +43,7 @@ import retrofit2.Response;
 
 public class HomeFragment extends Fragment {
     private FragmentHomeBinding binding;
-    private String API_KEY = "DCjvBSY1IK/whxDnmRBpPg==BWZHmE5BpgUJMA7o";
+    private String API_KEY = "";
     private ApiNinjaService service;
     private Quote quote;
 
